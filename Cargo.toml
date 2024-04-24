@@ -6,7 +6,7 @@ license = "MIT"
 description = "A Point represents an [x, y] coordinate on a grid or matrix"
 repository = "https://github.com/Rodhlann/grid-point"
 readme = "README.md"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
